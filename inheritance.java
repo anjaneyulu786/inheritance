@@ -7,25 +7,25 @@ class Student {
    public String getSection (){
        return Section;
    }
-   protected void setSection(String Section){
+   protected void setSection (String Section){
        this.Section = Section;
    }
-   public String getNumber(){
+   public String getNumber (){
     return Number;
    }
-   protected void setNumber(String Number){
+   protected void setNumber (String Number){
     this.Number= Number;
    }
-   public String getDesignation() {
+   public String getDesignation () {
 	return designation;
    }
-   protected void setDesignation(String designation) {
+   protected void setDesignation (String designation) {
 	this.designation = designation;
    }
-   protected String getCollegeName() {
+   protected String getCollegeName () {
 	return collegeName;
    }
-   protected void setCollegeName(String collegeName) {
+   protected void setCollegeName (String collegeName) {
 	this.collegeName = collegeName;
    }
    void does(){
@@ -33,16 +33,16 @@ class Student {
    }
 }
 
-public class inheritance extends Student{
+public class inheritance extends Student {
    String mainSubject = "Physics";
 
-   public static void main(String args[]){
-	inheritance obj = new inheritance();
-	System.out.println("College name : "+obj.getCollegeName());
-	System.out.println("Designation : "+obj.getDesignation());
-    System.out.println("Subject : "+obj.mainSubject);
-    System.out.println("Section : "+obj.getSection());
-    System.err.println("Roll Number : "+obj.getNumber());
-	obj.does();
+   public static void main (String args []){
+	inheritance obj = new inheritance ();
+	System.out.println ("College name : "+obj.getCollegeName ());
+	System.out.println ("Designation : "+obj.getDesignation ());
+    System.out.println ("Subject : "+obj.mainSubject);
+    System.out.println ("Section : "+obj.getSection ());
+    System.err.println ("Roll Number : "+obj.getNumber ());
+	obj.does ();
    }
 }
