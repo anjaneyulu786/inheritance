@@ -4,16 +4,16 @@ class Student {
    private String Section ="First";
    private String Number="999";
 
-   public String getSection (){
+   public String getSection () {
        return Section;
    }
-   protected void setSection (String Section){
+   protected void setSection (String Section) {
        this.Section = Section;
    }
    public String getNumber (){
     return Number;
    }
-   protected void setNumber (String Number){
+   protected void setNumber (String Number) {
     this.Number= Number;
    }
    public String getDesignation () {
@@ -36,7 +36,7 @@ class Student {
 public class inheritance extends Student {
    String mainSubject = "Physics";
 
-   public static void main (String args []){
+   public static void main (String args []) {
 	inheritance obj = new inheritance ();
 	System.out.println ("College name : "+obj.getCollegeName ());
 	System.out.println ("Designation : "+obj.getDesignation ());
