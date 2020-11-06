@@ -35,14 +35,13 @@ class Student {
 
 public class inheritance extends Student {
    String mainSubject = "Physics";
-
    public static void main (String args []) {
 	inheritance obj = new inheritance ();
 	System.out.println ("College name : "+obj.getCollegeName ());
 	System.out.println ("Designation : "+obj.getDesignation ());
-    System.out.println ("Subject : "+obj.mainSubject);
-    System.out.println ("Section : "+obj.getSection ());
-    System.err.println ("Roll Number : "+obj.getNumber ());
+    	System.out.println ("Subject : "+obj.mainSubject);
+    	System.out.println ("Section : "+obj.getSection ());
+    	System.err.println ("Roll Number : "+obj.getNumber ());
 	obj.does ();
    }
 }
